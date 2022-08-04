@@ -30,7 +30,7 @@ test:
     - pip
 
 about:
-  home: http://kaitai.io
+  home: https://kaitai.io
   summary: 'Kaitai Struct declarative parser generator for binary data: runtime library for Python'
   license: MIT
   license_file:
