@@ -1,7 +1,7 @@
 About kaitaistruct
 ==================
 
-Home: http://kaitai.io
+Home: https://kaitai.io
 
 Package license: MIT
 
