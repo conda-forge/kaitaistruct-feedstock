@@ -1,5 +1,5 @@
 {% set name = "kaitaistruct" %}
-{% set version = "0.10" %}
+{% set version = "0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kaitaistruct-{{ version }}.tar.gz
-  sha256: a044dee29173d6afbacf27bcac39daf89b654dd418cfa009ab82d9178a9ae52a
+  sha256: 053ee764288e78b8e53acf748e9733268acbd579b8d82a427b1805453625d74b
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
